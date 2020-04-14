@@ -14,7 +14,11 @@
 # limitations under the License.
 #
 
+# Default inversion options.
+default['poise-python']['provider'] = 'auto'
+default['poise-python']['options'] = {}
 
-module PoisePython
-  VERSION = '1.8.1'
-end
+# Used for the default recipe.
+default['poise-python']['install_python2'] = true
+default['poise-python']['install_python3'] = false
+default['poise-python']['install_pypy'] = false

@@ -14,7 +14,5 @@
 # limitations under the License.
 #
 
-
-module PoisePython
-  VERSION = '1.8.1'
-end
+require 'poise_python/resources'
+require 'poise_python/python_providers'

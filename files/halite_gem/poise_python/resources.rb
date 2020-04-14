@@ -14,7 +14,18 @@
 # limitations under the License.
 #
 
+require 'poise_python/resources/pip_requirements'
+require 'poise_python/resources/python_package'
+require 'poise_python/resources/python_runtime'
+require 'poise_python/resources/python_runtime_pip'
+require 'poise_python/resources/python_execute'
+require 'poise_python/resources/python_virtualenv'
+
 
 module PoisePython
-  VERSION = '1.8.1'
+  # Chef resources and providers for poise-python.
+  #
+  # @since 1.0.0
+  module Resources
+  end
 end

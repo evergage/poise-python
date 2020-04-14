@@ -14,7 +14,10 @@
 # limitations under the License.
 #
 
+require 'poise_languages'
+
 
 module PoisePython
-  VERSION = '1.8.1'
+  class Error < PoiseLanguages::Error
+  end
 end

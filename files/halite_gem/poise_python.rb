@@ -16,5 +16,10 @@
 
 
 module PoisePython
-  VERSION = '1.8.1'
+  autoload :Error, 'poise_python/error'
+  autoload :Resources, 'poise_python/resources'
+  autoload :PythonCommandMixin, 'poise_python/python_command_mixin'
+  autoload :PythonProviders, 'poise_python/python_providers'
+  autoload :Utils, 'poise_python/utils'
+  autoload :VERSION, 'poise_python/version'
 end

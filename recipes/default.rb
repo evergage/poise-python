@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-
-module PoisePython
-  VERSION = '1.8.1'
-end
+# Default runtimes, last one will be the default.
+python_runtime 'pypy' if node['poise-python']['install_pypy']
+python_runtime '3' if node['poise-python']['install_python3']
+python_runtime '2' if node['poise-python']['install_python2']
